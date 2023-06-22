@@ -20,3 +20,20 @@ video {
 	max-width:100%;
 	display:block;
 }
+
+a:hover {color:#126e82;} 
+
+table.header-bar {
+	width:20%;
+}
+td{
+	height:50px;
+	text-align:center;
+}
+.header{
+	font-size:0.75em;
+}
+
+.poem {text-align:center;}
+
+.header-bar {
