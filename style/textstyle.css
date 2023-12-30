@@ -1,0 +1,28 @@
+/*
+ * File:textstyle.css
+ * ------------------
+ * 用来存放一些特殊的文本样式.
+ */
+
+/* 黑幕&透明 */
+
+.black {
+    background-color: black;
+    color: black;
+}
+:hover.black {
+    color: white;
+    transition-timing-function: cubic-bezier(0, 0.5, 1, 1);
+}
+.transparent {
+    color: rgba(0, 0, 0, 0);
+}
+:hover.transparent {
+    color: inherit;
+}
+
+/* 居中 */
+
+.center {
+    text-align:center;
+}

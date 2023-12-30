@@ -1,0 +1,59 @@
+/*
+ * File:style.css
+ * --------------
+ * 用来存放主要的样式.
+ */
+
+/* 全局属性 */
+
+* {
+    transition: 0.3s;
+    word-wrap: break-word;
+}
+
+/* 部分属性 */
+
+body {
+    background: #47484c url() no-repeat fixed center top;
+    font: 1.125rem/2rem system-ui;
+    margin-inline: auto;
+    width: min(100ch , 100% - 4rem);
+}
+header {
+    background: #47484c url(../img/paper.gif);
+    border-radius: 10px;
+    padding: 0;
+}
+main {
+    background: #47484c url(../img/paper.gif);
+    border-radius: 10px;
+    padding: 2% 2% 3% 2%;
+}
+
+/* 媒体 */
+
+@media screen {
+    img,
+    svg,
+    video {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+/* 文本 */
+
+a {
+    color: #2486B9;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+textarea {
+    resize: none;
+}
+em,cite,i {
+    font-style: normal;
+}
