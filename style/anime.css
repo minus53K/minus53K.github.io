@@ -1,0 +1,83 @@
+@keyframes zer {
+    0% {
+        color: gray;
+    }
+    100% {
+        color: gold;
+    }
+}
+@keyframes one {
+    0% {
+        margin-left: 0%;
+    }
+    100% {
+        margin-left: 92%;
+    }
+}
+#animation0 {
+    background-color: red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-weight: bold;
+    font-size:xx-large;
+    animation-name: zer;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+#animation1 {
+    background-color: red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    max-width: 8%;
+    text-align: center;
+    color: gold;
+    font-weight: bold;
+    animation-name: one;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes three {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#animation2 {
+    margin-left: 40%;
+    max-width: 20%;
+    animation-name: three;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes four {
+    0% {
+        margin-left: 0%;
+    }
+    100% {
+        margin-left: 80%;
+    }
+}
+#animation3 {
+    max-width: 20%;
+    animation-name: four;
+    animation-duration: 1ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}

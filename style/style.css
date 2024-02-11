@@ -7,7 +7,7 @@
 /* 全局属性 */
 
 * {
-    transition: 0.3s;
+    transition: 0.25s;
     word-wrap: break-word;
 }
 
@@ -47,6 +47,9 @@ a {
     color: #2486B9;
     font-weight: bold;
     text-decoration: none;
+}
+a:hover {
+    color: #ED5A65;
 }
 ul li {
     list-style: none;
